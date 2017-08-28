@@ -35,11 +35,11 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "G2core DUE I/O and External Interfaces"
-Date "August 27, 2017"
-Rev "0.9 cjm"
+Date "2017-08-28"
+Rev "1.0 cjm"
 Comp "G2core Compiled with PLATFORM = DUE and BOARD = gShield"
-Comment1 ""
-Comment2 "See Also: https://github.com/synthetos/g2/wiki/Arduino-DUE-Pinout-for-g2core"
+Comment1 "See Also: https://github.com/synthetos/g2/wiki/Arduino-DUE-Pinout-for-g2core"
+Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -974,4 +974,8 @@ Text Notes 1925 5025 0    98   ~ 20
 DUE
 Text Notes 1975 1425 0    118  ~ 24
 External Interface Suggestions
+Text Notes 9175 2575 0    63   ~ 0
+gShield connects to \nP2, P3, P5 and P6 only
+Text Notes 1775 7550 0    63   ~ 0
+2N7000 MOSFET is an economical solution well suited to application, \nsimilar devices should work as well\nDATASHEET: https://www.onsemi.com/pub/Collateral/2N7000-D.PDF
 $EndSCHEMATC
